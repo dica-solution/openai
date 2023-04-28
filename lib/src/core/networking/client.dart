@@ -1,8 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'package:dart_openai/src/core/utils/http_client_web.dart'
-    if (dart.library.io) 'package:dart_openai/src/core/utils/http_client_io.dart';
+import 'package:dart_openai/src/core/utils/http_client_io.dart';
 import 'package:dart_openai/openai.dart';
 import 'package:dart_openai/src/core/builder/headers.dart';
 import 'package:dart_openai/src/core/utils/logger.dart';
