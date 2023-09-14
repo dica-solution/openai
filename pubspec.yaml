@@ -6,14 +6,13 @@ repository: https://github.com/anasfik/openai
 documentation: https://github.com/anasfik/openai/blob/main/README.md
 issue_tracker: https://github.com/anasfik/openai/issues
 environment:
-  sdk: ">=2.18.5 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dev_dependencies:
-  dart_code_metrics: ^5.6.0
   lints: ^2.0.0
   test: ^1.16.0
 
 dependencies:
-  http: ^0.13.5
+  http: ^1.0.0
   meta: ^1.8.0
   collection: ^1.16.0
